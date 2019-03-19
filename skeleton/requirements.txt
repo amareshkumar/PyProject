@@ -1,0 +1,4 @@
+nose==1.3.7
+pythonproject==0.1
+robotframework==3.0.2
+virtualenv==16.4.3
