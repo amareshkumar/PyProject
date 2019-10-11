@@ -2,7 +2,6 @@ import math
 import array
 from sys import argv
 
-
 class Arithmetic:
     def sum (self, a, b):
         return a+b
@@ -49,6 +48,7 @@ def Main():
     print(f'filename is "{filename}":')
     print(txt.read())
 
+    #stored read input into a list
 
 if __name__== "__main__":
     Main()
