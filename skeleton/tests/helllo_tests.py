@@ -21,3 +21,7 @@ def test_sum ():
 	ar = Arithmetic()	
 
 	assert_equal (ar.sum(4, 3), 7)
+
+def test_Ctor ():
+	ar = Arithmetic(4);
+	assert_equal ("Arithmetic", ar.classname())

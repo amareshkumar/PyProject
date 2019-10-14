@@ -2,7 +2,7 @@ import array
 import sys
 # import os
 # os.system("python hello.py")
-
+import hello
 
 class CliManager:
     def take_input():

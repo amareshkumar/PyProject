@@ -3,6 +3,11 @@ import array
 from sys import argv
 
 class Arithmetic:
+    #data members
+    number = 0
+    classname = "Arithmetic"
+
+    #member function
     def sum (self, a, b):
         return a+b
 
@@ -17,7 +22,18 @@ class Arithmetic:
         for a in arr:
             sum = sum + a;
         return sum / len(arr)
+    #writing a c-tor
+    def __init__(self):
+        print (self.classname)
+    #ctor with one argument
+    def __init__(self, random):
+        self.number = random
 
+    def return_nearest_even (self):
+        if (self.number % 2 == 0):
+            return self.number
+        else:
+            return self.number+1
 
 def Main():
     print("Hello Python")
